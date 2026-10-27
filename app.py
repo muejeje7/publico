@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # VULNERABILIDAD 1: Contraseña expuesta en el código (Hardcoded Secret)
-DB_PASSWORD = "SuperSecretPassword123!"
+DB_PASSWORD = "SuperSecretPassword1234!"
 
 def ejecutar_comando():
     # El usuario podría ingresar algo como: "archivo.txt; rm -rf /"
